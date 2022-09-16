@@ -1,7 +1,7 @@
 body{
     background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2021/12/fondo_blanco_ladrillo_cemento.webp);
     background-attachment: fixed;
-
+    position: relative;
 }
 img {
 width: 200px;
@@ -12,36 +12,32 @@ width: 200px;
     background-color: darksalmon;
     padding: 10px 10px 10px 15px;
     border: 5px solid black;
-
+    left: 10px;
+    position: absolute;
 }
 #spanId{
-    font-size: 18px;
+    font-size: 50px;
     margin: 50px;
 }
-.list{
-    position: absolute;
-    left: 0px;
-    width: 200px;
-    
-}
-.description{
-    margin-left: 400px;
-    float: left;
-}
-.container{
-    position: relative;
-}
+
 .divClass{
     text-align: center;
 }
 #title{
     margin-bottom: 100px;
     background-color: aquamarine;
+    position: relative;
+    top: -22px;
+    left: -10px;
+    width: 1600px;
 }
 #arrow{
     background-image: url(https://www.todohistorietas.com.ar/flechaIzq_mov.gif);
     background-repeat: no-repeat;
     background-size: contain;
+    font-size: 50px;
+    margin-left: 400px;
+    float: left;
     
 }
 a {
@@ -55,4 +51,7 @@ a {
 a:hover{
     color: transparent;
     transition: 500ms ease;
+}
+header{
+    width: 100%;
 }
