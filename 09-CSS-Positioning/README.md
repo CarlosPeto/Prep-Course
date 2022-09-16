@@ -12,7 +12,7 @@
   </tr>
 </table>
 
-# CSS Intermedio
+# CSS IntermediocontainerTitle
 
 En esta lección cubriremos:
 
